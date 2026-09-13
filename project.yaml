@@ -1,0 +1,77 @@
+# .project metadata for Prometheus
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "prometheus"
+name: "Prometheus"
+description: "The Prometheus monitoring system and time series database"
+type: "project"
+project_lead: "alexgreenbank" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#prometheus"
+    link: "https://libera.chat/"
+    primary: true
+  - name: "#prometheus-client_golang"
+  - name: "#prometheus-java"
+
+maturity_log:
+  - phase: "graduated"
+    date: "2016-05-09T00:00:00Z"
+    issue: "https://github.com/cncf/toc/issues/1242" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/prometheus/prometheus"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://prometheus.io/"
+
+artwork: "https://landscape.cncf.io/logos/prometheus.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/prometheus/prometheus/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "prometheus/prometheus"
+
+social:
+  twitter: "https://twitter.com/PrometheusIO"
+
+security:
+  policy:
+    path: "https://github.com/prometheus/prometheus/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/prometheus/prometheus/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/prometheus/prometheus/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/prometheus/prometheus/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/prometheus/prometheus/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/prometheus/prometheus/blob/main/README.md"
+
+landscape:
+  category: "Observability and Analysis"
+  subcategory: "Observability"
+
+# CLOMonitor Score: 91/100
+# Documentation: 93 | License: 92 | Best Practices: 86 | Security: 86
