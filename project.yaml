@@ -30,7 +30,7 @@ repositories: # TODO: AUTO-DETECTED primary — please verify
 
 website: "https://prometheus.io/"
 
-artwork: "https://landscape.cncf.io/logos/prometheus.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/prometheus"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
